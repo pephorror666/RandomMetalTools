@@ -10,8 +10,8 @@ import time
 import os
 
 # Spotify API credentials
-spotify_client_id = os.getenv(spotify_client_id)
-spotify_client_secret = os.getenv(spotify_client_secret)
+spotify_client_id = os.getenv("spotify_client_id")
+spotify_client_secret = os.getenv("spotify_client_secret")
 
 # Last.fm API credentials
 API_KEY = os.getenv("API_KEY")
