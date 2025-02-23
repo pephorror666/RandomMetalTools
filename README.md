@@ -80,7 +80,6 @@ Navigate through the different tools using the sidebar menu.
 ## Data Sources
 
 - Metal records: `metal_records.csv`
-- 2025 metal releases: `releases2025.csv`
 
 
 ## Contributing
