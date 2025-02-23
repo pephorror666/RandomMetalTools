@@ -10,12 +10,12 @@ import time
 import os
 
 # Spotify API credentials
-spotify_client_id = "YOUR_SPOTIFY_CLIENT_ID"
-spotify_client_secret = "YOUR_SPOTIFY_CLIENT_SECRET"
+spotify_client_id = os.getenv(spotify_client_id)
+spotify_client_secret = os.getenv(spotify_client_secret)
 
 # Last.fm API credentials
-API_KEY = "LASTFM_API_KEY"
-API_SECRET = "LASTFM API SECRET"
+API_KEY = os.getenv("API_KEY")
+API_SECRET = os.getenv("API_SECRET")
 
 # Initialize Spotify client
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(client_id=spotify_client_id, client_secret=spotify_client_secret))
