@@ -1,5 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
 # Random Metal Tools
 
 ---
@@ -91,13 +89,4 @@ Contributions to Random Metal Tools are welcome! Please feel free to submit a Pu
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-<div style="text-align: center">⁂</div>
-
-[^1]: https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/49261571/333ffbfd-f22b-42b1-a41b-82bfa130d0e5/app_main4.py
-
-[^2]: https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_8f79228a-d8a8-409d-a005-757ea916a2eb/a51ba2ed-27cb-43d1-9999-ddf76ed63a70/metal_records.csv
-
-[^3]: https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/collection_8f79228a-d8a8-409d-a005-757ea916a2eb/041815d4-9474-493e-98f9-df8dde665cdd/releases2025.csv
-
+None
