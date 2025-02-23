@@ -347,24 +347,19 @@ def lastfm_genre_explorer():
             return None
 
     def get_new_album_data():
-        while True:
-            band = get_random_band_by_genre(chosen_genre)
-            if band:
-                album = get_random_album_by_band(band)
-                if album:
-                    spotify_url, spotify_image = get_spotify_data(band.name, album.title)
-                    bandcamp_url = get_bandcamp_album_url(band.name, album.title)
-                    if spotify_url or bandcamp_url:
-                        return {
-                            'band': band,
-                            'album': album,
-                            'spotify_url': spotify_url,
-                            'spotify_image': spotify_image,
-                            'bandcamp_url': bandcamp_url
-                        }
-            # If no Spotify or Bandcamp URL is found, continue the loop to find another album
-        
-        # This return statement should never be reached, but is included for completeness
+        band = get_random_band_by_genre(chosen_genre)
+        if band:
+            album = get_random_album_by_band(band)
+            if album:
+                spotify_url, spotify_image = get_spotify_data(band.name, album.title)
+                bandcamp_url = get_bandcamp_album_url(band.name, album.title)
+                return {
+                    'band': band,
+                    'album': album,
+                    'spotify_url': spotify_url,
+                    'spotify_image': spotify_image,
+                    'bandcamp_url': bandcamp_url
+                }
         return {
             'band': None,
             'album': None,
